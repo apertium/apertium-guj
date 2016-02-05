@@ -1,0 +1,19 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-guj.guj.acx -text svneol=unset#application/xml
+/apertium-guj.guj.dix -text svneol=unset#application/xml
+/apertium-guj.guj.rlx -text
+/apertium-guj.pc.in -text
+/apertium-guj.post-guj.dix -text svneol=unset#application/xml
+/autogen.sh -text
+/configure.ac -text
+/coverage.sh -text
+dev/get-aspell-gu -text
+/guj.prob -text
+/history.log -text
+/modes.xml -text svneol=unset#application/xml
