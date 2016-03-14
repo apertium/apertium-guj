@@ -127,7 +127,7 @@
       <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
 
-    <pardef n="ખોટી__post"> <!-- FIXME: નો(no)/નું(nũ)/ની(nī)/ના(nā)/નાં(nā̃)/ને(ne) -->
+    <pardef n="નું__post"> <!-- FIXME: નો(no)/નું(nũ)/ની(nī)/ના(nā)/નાં(nā̃)/ને(ne) -->
       <e><p><l>નો</l><r>નું<s n="gen"/><s n="m"/></r></p></e>
       <e><p><l>નું</l><r>નું<s n="gen"/><s n="nt"/></r></p></e>
       <e><p><l>ની</l><r>નું<s n="gen"/><s n="f"/></r></p></e>
@@ -229,14 +229,14 @@
 
     <!-- SECTION: Nouns -->
     <e lm="ખરચ"><i>ખરચ</i><par n="ખરચ__n_m"/></e> 
-    <e lm="બલા"><i>બલા</i><par n="બલા__n_f"/></e> 
     <e lm="ઝડ"><i>ઝડ</i><par n="ઝડ__n_f"/></e> 
     <e lm="બલા"><i>બલા</i><par n="બલા__n_f"/></e> 
     <e lm="સદ्"><i>સદ</i><par n="સદ/्__n_m"/></e> 
     <e lm="મૌલાના"><i>મૌલાના</i><par n="મૌલાના__n_m"/></e> 
 
     <!-- SECTION: Proper nouns -->
-
+    <e lm="મેરી"><i>મેરી</i><par n="મેરી__np"/></e>
+    <e lm="જેમ્સ"><i>જેમ્સ</i><par n="જેમ્સ__np"/></e>
     <!-- SECTION: Adjectives -->
 
     <!-- SECTION: Adverbs -->
@@ -246,7 +246,7 @@
     <!-- SECTION: Nouns -->
   </section> 
 
-  <section id="main" type="inconditional">
+  <section id="other" type="inconditional">
     <e><par n="numeros"/></e>
     <e><par n="sent"/></e>
     <e><par n="coma"/></e>
