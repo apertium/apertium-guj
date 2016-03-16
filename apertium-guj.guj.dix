@@ -147,6 +147,70 @@
 
     <!-- SECTION:  Nouns -->     
 
+<!--Marked nouns with declensional vowel terminations -->
+	<!-- masculine -->
+    <pardef n="છોકરો__n_m"> 
+       <e><p><l>ો</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ા</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l>ા</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+	<!-- feminine -->
+    <pardef n="છોકરી__n_f">
+       <e><p><l></l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+	<!-- neuter -->
+    <pardef n="છોકરું__n_nt"> 
+       <e><p><l></l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+<!-- UnMarked nouns with declensional vowel terminations -->
+	<!-- masculine -->
+    <pardef n="વિચાર__n_m">
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+		<!-- the ones with a vowel ending -->
+    <pardef n="રાજા/v__n_m">
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ઓ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+	<!-- feminine -->
+    <pardef n="બહેન__n_f">
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+		<!-- the ones with a vowel ending -->
+    <pardef n="ભાષા/v__n_f">
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ઓ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+	<!-- neuter -->
+    <pardef n="ઘર__n_nt">
+       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+       <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+<!-- Other nouns, added previously -->
     <pardef n="મૌલાના__n_m">
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -221,6 +285,7 @@
 
     <!-- SECTION: Postpositions -->
     <e lm="ખોટી"><i>ખોટી</i><par n="ખોટી__post"/></e>
+    <e lm="નું"><i></i><par n="નું__post"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -228,22 +293,67 @@
     <e lm="હું"><i></i><par n="/હું__prn"/></e>
 
     <!-- SECTION: Nouns -->
+<!--
     <e lm="ખરચ"><i>ખરચ</i><par n="ખરચ__n_m"/></e> 
     <e lm="ઝડ"><i>ઝડ</i><par n="ઝડ__n_f"/></e> 
     <e lm="બલા"><i>બલા</i><par n="બલા__n_f"/></e> 
     <e lm="સદ्"><i>સદ</i><par n="સદ/्__n_m"/></e> 
     <e lm="મૌલાના"><i>મૌલાના</i><par n="મૌલાના__n_m"/></e> 
+-->
+
+<!-- marked, masculine -->
+    <e lm="છોકરો"><i>છોકર</i><par n="છોકરો__n_m"/></e>
+    <e lm="ડાઘો"><i>ડાઘ</i><par n="છોકરો__n_m"/></e>
+    <e lm="મહિનો"><i>મહિન</i><par n="છોકરો__n_m"/></e>
+    <e lm="કચરો"><i>કચર</i><par n="છોકરો__n_m"/></e>
+
+<!-- marked, femculine-->
+    <e lm="છોકરી"><i>છોકર</i><par n="છોકરી__n_f"/></e>
+    <e lm="ટોપી"><i>ટોપ</i><par n="છોકરી__n_f"/></e>
+    <e lm="બાટલી"><i>બાટલ</i><par n="છોકરી__n_f"/></e>
+    <e lm="વીજળી"><i>વીજળ</i><par n="છોકરી__n_f"/></e>
+
+<!-- marked, neuter-->
+    <e lm="છોકરું"><i>છોકર</i><par n="છોકરું__n_nt"/></e>
+    <e lm="કારખાનું"><i>કારખાન</i><par n="છોકરું__n_nt"/></e>
+    <e lm="બારણું"><i>બારણ</i><par n="છોકરું__n_nt"/></e>
+
+<!-- unmarked, masculine -->
+    <e lm="વિચાર"><i>વિચાર</i><par n="વિચાર__n_m"/></e>
+	<!-- unmarked, masculine, vowel-ending -->
+    <e lm="રાજા"><i>રાજા</i><par n="રાજા/v__n_m"/></e>
+    <e lm="ધોબી"><i>ધોબી</i><par n="રાજા/v__n_m"/></e>
+
+<!-- unmarked, femculine-->
+    <e lm="બહેન"><i>બહેન</i><par n="બહેન__n_f"/></e>
+    <e lm="બાબત"><i>બાબત</i><par n="બહેન__n_f"/></e>
+    <e lm="નિશાળ"><i>નિશાળ</i><par n="બહેન__n_f"/></e>
+
+
+	<!-- unmarked, feminine, vowel-ending -->
+    <e lm="ભાષા"><i>ભાષા</i><par n="ભાષા/v__n_f"/></e>
+
+
+<!-- unmarked, neuter-->
+    <e lm="ઘર"><i>ઘર</i><par n="ઘર__n_nt"/></e>
+    <e lm="મેદાન"><i>મેદાન</i><par n="ઘર__n_nt"/></e>
+
+
 
     <!-- SECTION: Proper nouns -->
     <e lm="મેરી"><i>મેરી</i><par n="મેરી__np"/></e>
     <e lm="જેમ્સ"><i>જેમ્સ</i><par n="જેમ્સ__np"/></e>
+    <e lm="કાજોલ"><i>કાજોલ</i><par n="મેરી__np"/></e>
+    <e lm="રાહુલ"><i>રાહુલ</i><par n="જેમ્સ__np"/></e>
+
+
+
     <!-- SECTION: Adjectives -->
 
     <!-- SECTION: Adverbs -->
 
     <!-- SECTION: Verbs -->
 
-    <!-- SECTION: Nouns -->
   </section> 
 
   <section id="other" type="inconditional">
