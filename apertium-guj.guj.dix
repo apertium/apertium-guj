@@ -123,7 +123,7 @@
 
 
     <!-- SECTION: Postpostions -->        
-    <pardef n="ખોટી__post">
+    <pardef n="પર__post">
       <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
 
@@ -144,6 +144,36 @@
 
     <pardef n="કે__cnjsub">
       <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Adjectives -->
+    <pardef n="સુંદર__adj"> <!-- indeclinable/invariable adjectives -->
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l></l><r><s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="સારો__adj"> <!-- declinable/variable adjectives -->
+      <e><p><l>ો</l><r>ો<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ા</l><r>ો<s n="adj"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ા</l><r>ો<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ા</l><r>ો<s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+
+      <e><p><l>ું</l><r>ું<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ાં</l><r>ું<s n="adj"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ાં</l><r>ું<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ાં</l><r>ું<s n="adj"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
 
@@ -349,7 +379,8 @@
     <e lm="કે"><i>કે</i><par n="કે__cnjsub"/></e>
 
     <!-- SECTION: Postpositions -->
-    <e lm="ખોટી"><i>ખોટી</i><par n="ખોટી__post"/></e>
+    <e lm="પર"><i>પર</i><par n="પર__post"/></e>
+
     <e lm="નું"><i></i><par n="નું__post"/></e>
 
     <!-- SECTION: Determiners -->
@@ -414,6 +445,20 @@
     <e lm="રાહુલ"><i>રાહુલ</i><par n="જેમ્સ__np"/></e>
 
     <!-- SECTION: Adjectives -->
+<!-- declinables -->
+    	<e lm="સારો"><i>સાર</i><par n="સારો__adj"/></e>
+	<e lm="નાનો"><i>નાન</i><par n="સારો__adj"/></e>
+	<e lm="મોટો"><i>મોટ</i><par n="સારો__adj"/></e>
+	<e lm="કાળો"><i>કાળ</i><par n="સારો__adj"/></e>
+	<e lm="ઠંડો"><i>ઠંડ</i><par n="સારો__adj"/></e>
+
+<!-- indeclinables -->
+	<e lm="ખરાબ"><i>ખરાબ</i><par n="સુંદર__adj"/></e>
+	<e lm="ભારી"><i>ભારી</i><par n="સુંદર__adj"/></e>
+	<e lm="સાફ"><i>સાફ</i><par n="સુંદર__adj"/></e>
+	<e lm="કઠીન"><i>કઠીન</i><par n="સુંદર__adj"/></e>
+	<e lm="લાલ"><i>લાલ</i><par n="સુંદર__adj"/></e>
+
 
     <!-- SECTION: Adverbs -->
 
