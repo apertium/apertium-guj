@@ -136,6 +136,17 @@
       <e><p><l>ને</l><r>નું<s n="gen"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Conjunctions -->
+
+    <pardef n="અને__cnjcoo">
+      <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="કે__cnjsub">
+      <e><p><l></l><r><s n="cnjsub"/></r></p></e>
+    </pardef>
+
+
     <!-- SECTION: Pronouns -->        
 
     <pardef n="/હું__prn">
@@ -332,7 +343,10 @@
     <!-- SECTION: Miscellaneous -->
 
     <!-- SECTION: Conjunctions -->
+    <e lm="અને"><i>અને</i><par n="અને__cnjcoo"/></e>
 
+    <e lm="અથવા"><i>અથવા</i><par n="કે__cnjsub"/></e>
+    <e lm="કે"><i>કે</i><par n="કે__cnjsub"/></e>
 
     <!-- SECTION: Postpositions -->
     <e lm="ખોટી"><i>ખોટી</i><par n="ખોટી__post"/></e>
@@ -398,8 +412,6 @@
     <e lm="જેમ્સ"><i>જેમ્સ</i><par n="જેમ્સ__np"/></e>
     <e lm="કાજોલ"><i>કાજોલ</i><par n="મેરી__np"/></e>
     <e lm="રાહુલ"><i>રાહુલ</i><par n="જેમ્સ__np"/></e>
-
-
 
     <!-- SECTION: Adjectives -->
 
