@@ -302,41 +302,40 @@
 		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
-		<e><p><l>હોઈશ</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હોઈશું</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હશો</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હોઈશ</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હોઈશું</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હશો</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-
+		<e><p><l>હોઈશ</l><r>છે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશું</l><r>છે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>છે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હશો</l><r>છે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>છે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>છે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશ</l><r>છે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશું</l><r>છે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>છે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હશો</l><r>છે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>છે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>છે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
 		<!-- the 2 genders are differentiated only in past tense-->
-		<e><p><l>હતો</l><r>હતો<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હતા</l><r>હતો<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>હતો</l><r>હતો<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હતા</l><r>હતો<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>હતો</l><r>હતો<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હતા</l><r>હતો<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હતો</l><r>છે<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હતા</l><r>છે<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હતો</l><r>છે<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હતા</l><r>છે<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હતો</l><r>છે<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હતા</l><r>છે<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
-		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હતી</l><r>છે<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હતી</l><r>છે<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હતી</l><r>છે<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હતી</l><r>છે<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હતી</l><r>છે<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હતી</l><r>છે<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
-		<e><p><l>હતું</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r></p></e>
-		<e><p><l>હતાં</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="nt"/><s n="pl"/></r></p></e>
-		<e><p><l>હતું</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p></e>
-		<e><p><l>હતાં</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="nt"/><s n="pl"/></r></p></e>
-		<e><p><l>હતું</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
-		<e><p><l>હતાં</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+		<e><p><l>હતું</l><r>છે<s n="vbser"/><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>હતાં</l><r>છે<s n="vbser"/><s n="past"/><s n="p1"/><s n="nt"/><s n="pl"/></r></p></e>
+		<e><p><l>હતું</l><r>છે<s n="vbser"/><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>હતાં</l><r>છે<s n="vbser"/><s n="past"/><s n="p2"/><s n="nt"/><s n="pl"/></r></p></e>
+		<e><p><l>હતું</l><r>છે<s n="vbser"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>હતાં</l><r>છે<s n="vbser"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
 	</pardef>
     <!-- SECTION: Proper nouns -->
     
@@ -435,7 +434,8 @@
 <!-- unmarked, neuter-->
     <e lm="ઘર"><i>ઘર</i><par n="ઘર__n_nt"/></e>
     <e lm="મેદાન"><i>મેદાન</i><par n="ઘર__n_nt"/></e>
-
+    <e lm="વૃક્ષ"><i>વૃક્ષ</i><par n="ઘર__n_nt"/></e>
+    <e lm="ઝાડ"><i>ઝાડ</i><par n="ઘર__n_nt"/></e>
 
 
     <!-- SECTION: Proper nouns -->
