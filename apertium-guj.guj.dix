@@ -246,6 +246,57 @@
        <e><p><l>ઓં</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Verbs -->
+	<pardef n="/છે__vbser">
+		<e><p><l>છું</l><r>છે<s n="vbser"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>છીએ</l><r>છે<s n="vbser"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>છો</l><r>છે<s n="vbser"/><s n="pres"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>છું</l><r>છે<s n="vbser"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>છીએ</l><r>છે<s n="vbser"/><s n="pres"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>છો</l><r>છે<s n="vbser"/><s n="pres"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>છે<s n="vbser"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+		<e><p><l>હોઈશ</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશું</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હશો</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશ</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશું</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હશો</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હશે<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+
+		<!-- the 2 genders are differentiated only in past tense-->
+		<e><p><l>હતો</l><r>હતો<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હતા</l><r>હતો<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હતો</l><r>હતો<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હતા</l><r>હતો<s n="vbser"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>હતો</l><r>હતો<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>હતા</l><r>હતો<s n="vbser"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+
+		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>હતી</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+
+		<e><p><l>હતું</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>હતાં</l><r>હતી<s n="vbser"/><s n="past"/><s n="p1"/><s n="nt"/><s n="pl"/></r></p></e>
+		<e><p><l>હતું</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>હતાં</l><r>હતી<s n="vbser"/><s n="past"/><s n="p2"/><s n="nt"/><s n="pl"/></r></p></e>
+		<e><p><l>હતું</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+		<e><p><l>હતાં</l><r>હતી<s n="vbser"/><s n="past"/><s n="p3"/><s n="nt"/><s n="pl"/></r></p></e>
+	</pardef>
     <!-- SECTION: Proper nouns -->
     
     <pardef n="જેમ્સ__np">
@@ -307,7 +358,7 @@
     <e lm="મહિનો"><i>મહિન</i><par n="છોકરો__n_m"/></e>
     <e lm="કચરો"><i>કચર</i><par n="છોકરો__n_m"/></e>
     <e lm="બગીચો"><i>બગીચ</i><par n="છોકરો__n_m"/></e>
-
+    <e lm="કૂતરો"><i>કૂતર</i><par n="છોકરો__n_m"/></e>
 
 <!-- marked, femculine-->
     <e lm="છોકરી"><i>છોકર</i><par n="છોકરી__n_f"/></e>
@@ -355,6 +406,8 @@
     <!-- SECTION: Adverbs -->
 
     <!-- SECTION: Verbs -->
+    <e lm="છે"><i></i><par n="/છે__vbser"/></e>
+
 
   </section> 
 
