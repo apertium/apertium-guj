@@ -171,15 +171,15 @@
       <e><p><l>ા</l><r>ો<s n="adj"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ા</l><r>ો<s n="adj"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
 
-      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ી</l><r>ી<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ી</l><r>ો<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ી</l><r>ો<s n="adj"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ી</l><r>ો<s n="adj"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ી</l><r>ો<s n="adj"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
 
-      <e><p><l>ું</l><r>ું<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ાં</l><r>ું<s n="adj"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>ાં</l><r>ું<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>ાં</l><r>ું<s n="adj"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><p><l>ું</l><r>ો<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ાં</l><r>ો<s n="adj"/><s n="nt"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ાં</l><r>ો<s n="adj"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ાં</l><r>ો<s n="adj"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Adverbs -->
