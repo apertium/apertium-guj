@@ -213,14 +213,14 @@
 
 	<!-- feminine -->
     <pardef n="છોકરી__n_f">
-       <e><p><l></l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ી</l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
-       <e><p><l></l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
+       <e><p><l>ી</l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
        <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 	<!-- neuter -->
     <pardef n="છોકરું__n_nt"> 
-       <e><p><l></l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+       <e><p><l>ું</l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
        <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
@@ -305,7 +305,7 @@
     </pardef>
 -->
     <!-- SECTION: Verbs -->
-	<pardef n="હોવું__vbser">
+	<pardef n="હો/વું__vbser">
 		<e><p><l>છું</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
 		<e><p><l>છીએ</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
 		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
@@ -503,7 +503,7 @@
     <e lm="મેદાન"><i>મેદાન</i><par n="ઘર__n_nt"/></e>
     <e lm="વૃક્ષ"><i>વૃક્ષ</i><par n="ઘર__n_nt"/></e>
     <e lm="ઝાડ"><i>ઝાડ</i><par n="ઘર__n_nt"/></e>
-
+    <e lm="હવામાન"><i>હવામાન</i><par n="ઘર__n_nt"/></e>
 
     <!-- SECTION: Proper nouns -->
     <e lm="મેરી"><i>મેરી</i><par n="મેરી__np"/></e>
@@ -544,10 +544,11 @@
 	<e lm="પાસે"><i>પાસે</i><par n="આજે__adv"/></e>
 	<e lm="દૂર"><i>દૂર</i><par n="આજે__adv"/></e>
 <!-- interrogative -->
+	<e lm="ક્યાં"><i>ક્યાં</i><par n="આજે__adv"/></e>
 	<e lm="જ્યાં"><i>જ્યાં</i><par n="આજે__adv"/></e>
+
 	<e lm="જયારે"><i>જયારે</i><par n="આજે__adv"/></e>
-
-
+	<e lm="ક્યારે"><i>ક્યારે</i><par n="આજે__adv"/></e>
 <!-- negative -->
 	<e lm="નહીં"><i>નહીં</i><par n="આજે__adv"/></e>
 	<e lm="નહી"><i>નહી</i><par n="આજે__adv"/></e>
@@ -559,7 +560,7 @@
 
 
     <!-- SECTION: Verbs -->
-    <e lm="હોવું"><i></i><par n="હોવું__vbser"/></e>
+    <e lm="હો"><i></i><par n="હો/વું__vbser"/></e>
 
 
   </section> 
