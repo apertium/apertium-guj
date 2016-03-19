@@ -382,12 +382,14 @@
 -->
     <!-- SECTION: Verbs -->
 	<pardef n="હો/વું__vbser">
-		<e><p><l>છું</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>છીએ</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>છો</l><r>હો<s n="vbser"/><s n="pres"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>છું</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>છીએ</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>છો</l><r>હો<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+
+<!-- gender doesnt matter in simple present and future
 		<e><p><l>છું</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
 		<e><p><l>છીએ</l><r>હો<s n="vbser"/><s n="pres"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 		<e><p><l>છે</l><r>હો<s n="vbser"/><s n="pres"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
@@ -401,12 +403,13 @@
 		<e><p><l>હશો</l><r>હો<s n="vbser"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
 		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>હોઈશ</l><r>હો<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હોઈશું</l><r>હો<s n="vbser"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>હશો</l><r>હો<s n="vbser"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+-->
+		<e><p><l>હોઈશ</l><r>હો<s n="vbser"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>હોઈશું</l><r>હો<s n="vbser"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>હશો</l><r>હો<s n="vbser"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+		<e><p><l>હશે</l><r>હો<s n="vbser"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
 
 		<!-- the 2 genders are differentiated only in past tense-->
 		<e><p><l>હતો</l><r>હો<s n="vbser"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
@@ -628,7 +631,9 @@
 
 	<!-- unmarked, feminine, vowel-ending -->
     <e lm="ભાષા"><i>ભાષા</i><par n="ભાષા/v__n_f"/></e>
-
+    <e lm="મા"><i>મા</i><par n="ભાષા/v__n_f"/></e>
+    <e lm="માતા"><i>માતા</i><par n="ભાષા/v__n_f"/></e>
+    <e lm="બા"><i>બા</i><par n="ભાષા/v__n_f"/></e>
 
 <!-- unmarked, neuter-->
     <e lm="ઘર"><i>ઘર</i><par n="ઘર__n_nt"/></e>
@@ -677,6 +682,8 @@
 	<e lm="ત્યાં"><i>ત્યાં</i><par n="આજે__adv"/></e>
 	<e lm="પાસે"><i>પાસે</i><par n="આજે__adv"/></e>
 	<e lm="દૂર"><i>દૂર</i><par n="આજે__adv"/></e>
+	<e lm="બાહર"><i>બાહર</i><par n="આજે__adv"/></e>
+
 <!-- interrogative -->
 	<e lm="ક્યાં"><i>ક્યાં</i><par n="આજે__adv"/></e>
 	<e lm="જ્યાં"><i>જ્યાં</i><par n="આજે__adv"/></e>
