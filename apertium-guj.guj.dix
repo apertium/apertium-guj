@@ -245,26 +245,27 @@
       <e><p><l>તું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>તેં</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="erg"/></r></p></e>
       <e><p><l>તને</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>તારું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e> <!-- FIXME: add gender -->
-      <e><p><l>તારો</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
-      <e><p><l>તારી</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+      <e><p><l>તારું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>તારો</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>તારી</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
 
 <!-- informal/familiar -->
       <e><p><l>તું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="nom"/></r></p></e>
       <e><p><l>તેં</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="erg"/></r></p></e>
       <e><p><l>તને</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="dat"/></r></p></e>
-      <e><p><l>તારું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
-      <e><p><l>તારો</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
-      <e><p><l>તારી</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+      <e><p><l>તારું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="nt"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e>
+      <e><p><l>તારો</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e>
+      <e><p><l>તારી</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="તમે__prn">
-      <e><p><l>તમે</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="nom"/></r></p></e>
-      <e><p><l>તમે</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="erg"/></r></p></e>
-      <e><p><l>તમને</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="dat"/></r></p></e>
-      <e><p><l>તમારું</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
-<!-- FIXME: to-do from here. add રો and રી forms for above one-->
-
+<!-- formal -->
+      <e><p><l>તમે</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="nom"/></r></p></e>
+      <e><p><l>તમે</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="erg"/></r></p></e>
+      <e><p><l>તમને</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="frm"/><s n="dat"/></r></p></e>
+      <e><p><l>તમારું</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="nt"/><s n="frm"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>તમારો</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="m"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
+      <e><p><l>તમારી</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
     </pardef>
 
 
@@ -574,6 +575,7 @@
     <e lm="હું"><i></i><par n="હું__prn"/></e>
     <e lm="અમે"><i></i><par n="અમે__prn"/></e>
     <e lm="તું"><i></i><par n="તું__prn"/></e>
+    <e lm="તમે"><i></i><par n="તમે__prn"/></e>
 
     <!-- SECTION: Nouns -->
 <!--
