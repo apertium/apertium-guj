@@ -121,6 +121,11 @@
       <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
     </pardef>
 
+	<!-- Section : Numerals -->
+	<pardef n="એક__num">
+		<e><p><l></l><r><s n="num"/></r></p></e>
+	</pardef>
+
 
     <!-- SECTION: Postpostions -->        
     <pardef n="પર__post">
@@ -128,17 +133,36 @@
     </pardef>
 
     <pardef n="નું__post"> <!-- FIXME: નો(no)/નું(nũ)/ની(nī)/ના(nā)/નાં(nā̃)/ને(ne) and numbers -->
-      <e><p><l>નો</l><r>નું<s n="gen"/><s n="m"/></r></p></e>
-      <e><p><l>નું</l><r>નું<s n="gen"/><s n="nt"/></r></p></e>
-      <e><p><l>ની</l><r>નું<s n="gen"/><s n="f"/></r></p></e>
-      <e><p><l>ના</l><r>નું<s n="gen"/></r></p></e>
-      <e><p><l>નાં</l><r>નું<s n="gen"/></r></p></e>
-      <e><p><l>ને</l><r>નું<s n="gen"/></r></p></e>
+      <e><p><l>નો</l><r>નું<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ના</l><r>નું<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ની</l><r>નું<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ની</l><r>નું<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>નું</l><r>નું<s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>નાં</l><r>નું<s n="gen"/><s n="nt"/><s n="pl"/></r></p></e>
+<!--
+      <e><p><l>ને</l><r>નું<s n="gen"/></r></p></e> used when object is verb
+-->
     </pardef>
 
     <pardef n="noun__post">
 	<e><p><l>માં</l><r>માં<s n="post"/></r></p></e>
 	<e><p><l>થી</l><r>થી<s n="post"/></r></p></e>
+
+      <e><p><l>નો</l><r>નું<s n="gen"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ના</l><r>નું<s n="gen"/><s n="m"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ની</l><r>નું<s n="gen"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ની</l><r>નું<s n="gen"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e><p><l>નું</l><r>નું<s n="gen"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>નાં</l><r>નું<s n="gen"/><s n="nt"/><s n="pl"/></r></p></e>
+
+	<!-- used in presence of a verb -->
+	<e><p><l>ને</l><r>ને<s n="gen"/></r></p></e>
+	<e><p><l>ે</l><r>ે<s n="post"/></r></p></e>
+	<e><p><l>એ</l><r>એ<s n="post"/></r></p></e>
     </pardef>
 
 
@@ -190,13 +214,59 @@
 
 
     <!-- SECTION: Pronouns -->        
-
-    <pardef n="/હું__prn">
+    <pardef n="હું__prn">
       <e><p><l>હું</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>મેં</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="erg"/></r></p></e>
       <e><p><l>મને</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>મારું</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>મારું</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>મારો</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+	<e><p><l>મારી</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="sg"/><s n="gen"/></r></p></e>
     </pardef>
+
+    <pardef n="અમે__prn">
+<!-- exclusive -->
+      <e><p><l>અમે</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>અમે</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l>અમને</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>અમારું</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>અમારો</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>અમારી</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+<!-- inclusive -->
+      <e><p><l>આપણે</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>આપણે</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l>આપણને</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>આપણું</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="nt"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>આપણો</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="m"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>આપણી</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="તું__prn">
+      <e><p><l>તું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>તેં</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="erg"/></r></p></e>
+      <e><p><l>તને</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>તારું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e> <!-- FIXME: add gender -->
+      <e><p><l>તારો</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+      <e><p><l>તારી</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+
+<!-- informal/familiar -->
+      <e><p><l>તું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="nom"/></r></p></e>
+      <e><p><l>તેં</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="erg"/></r></p></e>
+      <e><p><l>તને</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="dat"/></r></p></e>
+      <e><p><l>તારું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+      <e><p><l>તારો</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+      <e><p><l>તારી</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="fam"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+    </pardef>
+
+    <pardef n="તમે__prn">
+      <e><p><l>તમે</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>તમે</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="erg"/></r></p></e>
+      <e><p><l>તમને</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>તમારું</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="gen"/></r></p></e><!-- FIXME: add gender -->
+<!-- FIXME: to-do from here. add રો and રી forms for above one-->
+
+    </pardef>
+
 
     <!-- SECTION:  Nouns -->     
 
@@ -206,7 +276,8 @@
        <e><p><l>ો</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ઓ</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
+
        <e><p><l>ે</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
        <e><p><l>ે</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
@@ -216,14 +287,14 @@
        <e><p><l>ી</l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ી</l><r>ી<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r>ી<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
     </pardef>
 	<!-- neuter -->
     <pardef n="છોકરું__n_nt"> 
        <e><p><l>ું</l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ા</l><r>ું<s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
     </pardef>
 
 <!-- UnMarked nouns with declensional vowel terminations -->
@@ -232,14 +303,17 @@
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ો</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ો</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
+
+       <e><p><l>ે</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
+       <e><p><l>ે</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 		<!-- the ones with a vowel ending -->
     <pardef n="રાજા/v__n_m">
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ઓ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ઓ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
     </pardef>
 
 	<!-- feminine -->
@@ -247,14 +321,14 @@
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ો</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ો</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
     </pardef>
 		<!-- the ones with a vowel ending -->
     <pardef n="ભાષા/v__n_f">
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ઓ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ઓ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ઓ</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
     </pardef>
 
 	<!-- neuter -->
@@ -262,7 +336,8 @@
        <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ો</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ો</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/></r></p></e>
+       <e><p><l>ો</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
+
        <e><p><l>ે</l><r><s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r></p></e>
        <e><p><l>ે</l><r><s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
@@ -398,16 +473,59 @@
 		<e><p><l>ે</l><r><s n="iv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 	</pardef>
 
+	<pardef n="રમ/વું__tv_vblex">
+		<e><p><l>વું</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+
+	<!--simple present-->
+		<e><p><l>ું</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>ીએ</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>ો</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+		<e><p><l>ું</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>ીએ</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>ો</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+	<!--simple future-->
+		<e><p><l>ીશ</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>ીશું</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+
+		<e><p><l>શે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>શો</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+
+		<e><p><l>શે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>શે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+		<e><p><l>ું</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>ીએ</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>ો</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+	</pardef>
 
 
     <!-- SECTION: Proper nouns -->
     
     <pardef n="જેમ્સ__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><j/></r></p><par n="noun__post"/></e>
     </pardef>  
             
     <pardef n="મેરી__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><j/></r></p><par n="noun__post"/></e>
     </pardef>    
 
     <pardef n="પટેલ__np">
@@ -438,6 +556,7 @@
 
     <!-- SECTION: Conjunctions -->
     <e lm="અને"><i>અને</i><par n="અને__cnjcoo"/></e>
+    <e lm="પણ"><i>પણ</i><par n="અને__cnjcoo"/></e>
 
     <e lm="અથવા"><i>અથવા</i><par n="કે__cnjsub"/></e>
     <e lm="કે"><i>કે</i><par n="કે__cnjsub"/></e>
@@ -445,13 +564,16 @@
     <!-- SECTION: Postpositions -->
     <e lm="પર"><i>પર</i><par n="પર__post"/></e>
 
+    <e lm="સાથે"><i>સાથે</i><par n="પર__post"/></e>
 
     <e lm="નું"><i></i><par n="નું__post"/></e>
 
     <!-- SECTION: Determiners -->
 
     <!-- SECTION: Pronouns -->
-    <e lm="હું"><i></i><par n="/હું__prn"/></e>
+    <e lm="હું"><i></i><par n="હું__prn"/></e>
+    <e lm="અમે"><i></i><par n="અમે__prn"/></e>
+    <e lm="તું"><i></i><par n="તું__prn"/></e>
 
     <!-- SECTION: Nouns -->
 <!--
@@ -470,12 +592,15 @@
     <e lm="બગીચો"><i>બગીચ</i><par n="છોકરો__n_m"/></e>
     <e lm="કૂતરો"><i>કૂતર</i><par n="છોકરો__n_m"/></e>
 
+
 <!-- marked, feminine-->
     <e lm="છોકરી"><i>છોકર</i><par n="છોકરી__n_f"/></e>
     <e lm="ટોપી"><i>ટોપ</i><par n="છોકરી__n_f"/></e>
     <e lm="બાટલી"><i>બાટલ</i><par n="છોકરી__n_f"/></e>
     <e lm="વીજળી"><i>વીજળ</i><par n="છોકરી__n_f"/></e>
     <e lm="ખુશી"><i>ખુશ</i><par n="છોકરી__n_f"/></e>
+    <e lm="ગરમી"><i>ગરમ</i><par n="છોકરી__n_f"/></e>
+    <e lm="બિલાડી"><i>બિલાડ</i><par n="છોકરી__n_f"/></e>
 
 <!-- marked, neuter-->
     <e lm="છોકરું"><i>છોકર</i><par n="છોકરું__n_nt"/></e>
@@ -484,9 +609,14 @@
 
 <!-- unmarked, masculine -->
     <e lm="વિચાર"><i>વિચાર</i><par n="વિચાર__n_m"/></e>
+    <e lm="વર્ષ"><i>વર્ષ</i><par n="વિચાર__n_m"/></e> <!--FIXME: verify-->
+    <e lm="સમય"><i>સમય</i><par n="વિચાર__n_m"/></e>
+
+
 	<!-- unmarked, masculine, vowel-ending -->
     <e lm="રાજા"><i>રાજા</i><par n="રાજા/v__n_m"/></e>
     <e lm="ધોબી"><i>ધોબી</i><par n="રાજા/v__n_m"/></e>
+
 
 <!-- unmarked, femculine-->
     <e lm="બહેન"><i>બહેન</i><par n="બહેન__n_f"/></e>
@@ -527,6 +657,8 @@
 	<e lm="કઠીન"><i>કઠીન</i><par n="સુંદર__adj"/></e>
 	<e lm="લાલ"><i>લાલ</i><par n="સુંદર__adj"/></e>
 	<e lm="ખુશ"><i>ખુશ</i><par n="સુંદર__adj"/></e>
+	<e lm="ખૂબ"><i>ખૂબ</i><par n="સુંદર__adj"/></e>
+	<e lm="બહુ"><i>બહુ</i><par n="સુંદર__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 <!-- time -->
@@ -549,19 +681,31 @@
 
 	<e lm="જયારે"><i>જયારે</i><par n="આજે__adv"/></e>
 	<e lm="ક્યારે"><i>ક્યારે</i><par n="આજે__adv"/></e>
+	<e lm="ત્યારે"><i>ત્યારે</i><par n="આજે__adv"/></e>
 <!-- negative -->
 	<e lm="નહીં"><i>નહીં</i><par n="આજે__adv"/></e>
 	<e lm="નહી"><i>નહી</i><par n="આજે__adv"/></e>
 	<e lm="ના"><i>ન</i><par n="આજે__adv"/></e>
-	<e lm="ન"><i>ન</i><par n="આજે__adv"/></e>
+<!--	<e lm="ન"><i>ન</i><par n="આજે__adv"/></e> FIXME: this messes with the postposition adjoined with nouns -->
 
 
 	<e lm="ચોક્કસ"><i>ચોક્કસ</i><par n="આજે__adv"/></e>
+	<e lm="પણ"><i>પણ</i><par n="આજે__adv"/></e>
+
+	<!-- SECTION : Numerals -->
+	<e lm="એક"><i>એક</i><par n="એક__num"/></e>
+	<e lm="છ"><i>છ</i><par n="એક__num"/></e>
+	<e lm="પાંચ"><i>પાંચ</i><par n="એક__num"/></e>
+
 
 
     <!-- SECTION: Verbs -->
     <e lm="હો"><i></i><par n="હો/વું__vbser"/></e>
 
+    <e lm="હસવું"><i>હસ</i><par n="હસ/વું__iv_vblex"/></e>
+
+    <e lm="રમવું"><i>રમ</i><par n="રમ/વું__tv_vblex"/></e>
+    <e lm="ગમવું"><i>ગમ</i><par n="રમ/વું__tv_vblex"/></e>
 
   </section> 
 
