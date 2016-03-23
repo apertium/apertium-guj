@@ -605,6 +605,10 @@
 
     <e lm="નું"><i></i><par n="નું__post"/></e>
 
+	<e lm="ને"><i>ને</i><par n="પર__post"/></e>
+    
+	<e lm="માટે"><i>માટે</i><par n="પર__post"/></e>
+
     <!-- SECTION: Determiners -->
 
     <!-- SECTION: Pronouns -->
@@ -646,6 +650,7 @@
     <e lm="બિલાડી"><i>બિલાડ</i><par n="છોકરી__n_f"/></e>
     <e lm="બારી"><i>બાર</i><par n="છોકરી__n_f"/></e>
     <e lm="ગણતરી"><i>ગણતર</i><par n="છોકરી__n_f"/></e>
+    <e lm="ખુરશી"><i>ખુરશ</i><par n="છોકરી__n_f"/></e>
 
 <!-- marked, neuter-->
     <e lm="છોકરું"><i>છોકર</i><par n="છોકરું__n_nt"/></e>
@@ -663,6 +668,8 @@
     <e lm="લોક"><i>લોક</i><par n="વિચાર__n_m"/></e>
     <e lm="મેજ"><i>મેજ</i><par n="વિચાર__n_m"/></e>
     <e lm="પ્રશ્ન"><i>પ્રશ્ન</i><par n="વિચાર__n_m"/></e>
+    <e lm="ખબર"><i>ખબર</i><par n="વિચાર__n_m"/></e><!--FIXME: verify-->
+    <e lm="ભોજન"><i>ભોજન</i><par n="વિચાર__n_m"/></e><!--FIXME: verify-->
 
 	<!-- unmarked, masculine, vowel-ending -->
     <e lm="રાજા"><i>રાજા</i><par n="રાજા/v__n_m"/></e>
@@ -681,6 +688,7 @@
     <e lm="મા"><i>મા</i><par n="ભાષા/v__n_f"/></e>
     <e lm="માતા"><i>માતા</i><par n="ભાષા/v__n_f"/></e>
     <e lm="બા"><i>બા</i><par n="ભાષા/v__n_f"/></e>
+    <e lm="જગ્યા"><i>જગ્યા</i><par n="ભાષા/v__n_f"/></e>
 
 <!-- unmarked, neuter-->
     <e lm="ઘર"><i>ઘર</i><par n="ઘર__n_nt"/></e>
@@ -712,6 +720,8 @@
 	<e lm="ઠંડો"><i>ઠંડ</i><par n="સારો__adj"/></e>
 	<e lm="બધો"><i>બધ</i><par n="સારો__adj"/></e>
 	<e lm="પૂરો"><i>પૂર</i><par n="સારો__adj"/></e>
+	<e lm="પૂરો"><i>પૂર</i><par n="સારો__adj"/></e>
+	<e lm="જૂનો"><i>જૂન</i><par n="સારો__adj"/></e>
 
 <!-- indeclinables -->
 	<e lm="ખરાબ"><i>ખરાબ</i><par n="સુંદર__adj"/></e>
@@ -742,6 +752,7 @@
 <!-- place -->
 	<e lm="યહીં"><i>યહીં</i><par n="આજે__adv"/></e>
 	<e lm="ત્યાં"><i>ત્યાં</i><par n="આજે__adv"/></e>
+	<e lm="ક્યાંય"><i>ક્યાંય</i><par n="આજે__adv"/></e>
 	<e lm="પાસે"><i>પાસે</i><par n="આજે__adv"/></e>
 	<e lm="દૂર"><i>દૂર</i><par n="આજે__adv"/></e>
 	<e lm="બાહર"><i>બાહર</i><par n="આજે__adv"/></e>
@@ -768,13 +779,12 @@
 	<e lm="પછી"><i>પછી</i><par n="આજે__adv"/></e>
 	<e lm="તો"><i>તો</i><par n="આજે__adv"/></e>
 	<e lm="ધીમે-ધીમે"><i>ધીમે-ધીમે</i><par n="આજે__adv"/></e>
-
+	<e lm="કંઇ"><i>કંઇ</i><par n="આજે__adv"/></e>
 
 <!--FIXME-->
 	<e lm="નથી"><i>નથી</i><par n="આજે__adv"/></e>
 	<e lm="ફરીથી"><i>ફરીથી</i><par n="આજે__adv"/></e>
-	<e lm="ને"><i>ને</i><par n="આજે__adv"/></e>
-
+	<e lm="પાછળથી"><i>પાછળથી</i><par n="આજે__adv"/></e>
 
 
 	<!-- SECTION : Numerals -->
