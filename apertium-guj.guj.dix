@@ -33,7 +33,7 @@
     <sdef n="rel"     c="Relative"/>    
     <sdef n="dem"     c="Demonstrative"/>
     <sdef n="prx"     c="Proximate"/>
-    <sdef n="dst"     c="Distal"/>          
+    <sdef n="dst"     c="Distant"/>          
     <sdef n="aa"      c="Animate"/>
     <sdef n="nn"      c="Inanimate"/>       
     <sdef n="itg"     c="Interrogative"/>     
@@ -212,8 +212,13 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="int__adv">
+      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Pronouns -->        
+<!-- 1st person -->
     <pardef n="હું__prn">
       <e><p><l>હું</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>મેં</l><r>હું<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="erg"/></r></p></e>
@@ -240,6 +245,7 @@
       <e><p><l>આપણી</l><r>અમે<s n="prn"/><s n="pers"/><s n="p1"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
     </pardef>
 
+<!-- 2nd person -->
 
     <pardef n="તું__prn">
       <e><p><l>તું</l><r>તું<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -268,7 +274,25 @@
       <e><p><l>તમારી</l><r>તમે<s n="prn"/><s n="pers"/><s n="p2"/><s n="f"/><s n="pl"/><s n="frm"/><s n="gen"/></r></p></e>
     </pardef>
 
+<!-- 3rd person -->
+    <pardef n="p3__prn_dst">  <!-- FIXME: to be completed-->
+	<e><p><l>તે</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="nom"/></r></p></e>
+	<e><p><l>તેને</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="dst"/><s n="dat"/></r></p></e>
+	<e><p><l>તેનું</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
+	<e><p><l>તેની</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
+	<e><p><l>તેના</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dst"/><s n="gen"/></r></p></e>
 
+	<e><p><l>તેઓ</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
+
+    </pardef>
+
+    <pardef n="p3__prn_dst">  <!-- FIXME: to be completed-->
+		<e><p><l>આ</l><r>આ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
+    </pardef>
+
+    <pardef n="prn__itg"> <!-- FIXME: to be completed-->
+          <e><p><l>શું</l><r>શું<s n="prn"/><s n="itg"/><s n="sg"/><s n="aa"/><s n="nom"/></r></p></e>
+    </pardef>
     <!-- SECTION:  Nouns -->     
 
 <!--Marked nouns with declensional vowel terminations -->
@@ -517,6 +541,9 @@
 
 		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+      	<e><p><l>વાનું</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e> <!--FIXME: recheck-->
+
 	</pardef>
 
 
@@ -569,6 +596,10 @@
     <e lm="પર"><i>પર</i><par n="પર__post"/></e>
 
     <e lm="સાથે"><i>સાથે</i><par n="પર__post"/></e>
+    <e lm="પાછળ"><i>પાછળ</i><par n="પર__post"/></e>
+	<e lm="હેઠળ"><i>હેઠળ</i><par n="પર__post"/></e>
+	<e lm="સામે"><i>સામે</i><par n="પર__post"/></e>
+	<e lm="અંદર"><i>અંદર</i><par n="પર__post"/></e>
 
     <e lm="નું"><i></i><par n="નું__post"/></e>
 
@@ -579,7 +610,10 @@
     <e lm="અમે"><i></i><par n="અમે__prn"/></e>
     <e lm="તું"><i></i><par n="તું__prn"/></e>
     <e lm="તમે"><i></i><par n="તમે__prn"/></e>
+    <e lm="તમે"><i></i><par n="તમે__prn"/></e>
+    <e lm="તે"><i></i><par n="p3__prn_dst"/></e>
 
+    <e lm="શું"><i></i><par n="prn__itg"/></e>
     <!-- SECTION: Nouns -->
 <!--
     <e lm="ખરચ"><i>ખરચ</i><par n="ખરચ__n_m"/></e> 
@@ -606,6 +640,8 @@
     <e lm="ખુશી"><i>ખુશ</i><par n="છોકરી__n_f"/></e>
     <e lm="ગરમી"><i>ગરમ</i><par n="છોકરી__n_f"/></e>
     <e lm="બિલાડી"><i>બિલાડ</i><par n="છોકરી__n_f"/></e>
+    <e lm="બારી"><i>બાર</i><par n="છોકરી__n_f"/></e>
+    <e lm="ગણતરી"><i>ગણતર</i><par n="છોકરી__n_f"/></e>
 
 <!-- marked, neuter-->
     <e lm="છોકરું"><i>છોકર</i><par n="છોકરું__n_nt"/></e>
@@ -616,18 +652,21 @@
     <e lm="વિચાર"><i>વિચાર</i><par n="વિચાર__n_m"/></e>
     <e lm="વર્ષ"><i>વર્ષ</i><par n="વિચાર__n_m"/></e> <!--FIXME: verify-->
     <e lm="સમય"><i>સમય</i><par n="વિચાર__n_m"/></e>
-
+    <e lm="જવાબ"><i>જવાબ</i><par n="વિચાર__n_m"/></e>
+    <e lm="અવાજ"><i>અવાજ</i><par n="વિચાર__n_m"/></e>
+    <e lm="હાથ"><i>હાથ</i><par n="વિચાર__n_m"/></e>
+    <e lm="લોક"><i>લોક</i><par n="વિચાર__n_m"/></e>
 
 	<!-- unmarked, masculine, vowel-ending -->
     <e lm="રાજા"><i>રાજા</i><par n="રાજા/v__n_m"/></e>
     <e lm="ધોબી"><i>ધોબી</i><par n="રાજા/v__n_m"/></e>
 
 
-<!-- unmarked, femculine-->
+<!-- unmarked, feminine-->
     <e lm="બહેન"><i>બહેન</i><par n="બહેન__n_f"/></e>
     <e lm="બાબત"><i>બાબત</i><par n="બહેન__n_f"/></e>
     <e lm="નિશાળ"><i>નિશાળ</i><par n="બહેન__n_f"/></e>
-
+    <e lm="આંખ"><i>આંખ</i><par n="બહેન__n_f"/></e>
 
 	<!-- unmarked, feminine, vowel-ending -->
     <e lm="ભાષા"><i>ભાષા</i><par n="ભાષા/v__n_f"/></e>
@@ -641,6 +680,14 @@
     <e lm="વૃક્ષ"><i>વૃક્ષ</i><par n="ઘર__n_nt"/></e>
     <e lm="ઝાડ"><i>ઝાડ</i><par n="ઘર__n_nt"/></e>
     <e lm="હવામાન"><i>હવામાન</i><par n="ઘર__n_nt"/></e>
+    <e lm="બાળક"><i>બાળક</i><par n="ઘર__n_nt"/></e>
+
+
+
+
+
+
+
 
     <!-- SECTION: Proper nouns -->
     <e lm="મેરી"><i>મેરી</i><par n="મેરી__np"/></e>
@@ -655,7 +702,7 @@
 	<e lm="મોટો"><i>મોટ</i><par n="સારો__adj"/></e>
 	<e lm="કાળો"><i>કાળ</i><par n="સારો__adj"/></e>
 	<e lm="ઠંડો"><i>ઠંડ</i><par n="સારો__adj"/></e>
-
+	<e lm="ઠંડો"><i>ઠંડ</i><par n="સારો__adj"/></e>
 
 <!-- indeclinables -->
 	<e lm="ખરાબ"><i>ખરાબ</i><par n="સુંદર__adj"/></e>
@@ -666,8 +713,10 @@
 	<e lm="ખુશ"><i>ખુશ</i><par n="સુંદર__adj"/></e>
 	<e lm="ખૂબ"><i>ખૂબ</i><par n="સુંદર__adj"/></e>
 	<e lm="બહુ"><i>બહુ</i><par n="સુંદર__adj"/></e>
+	<e lm="બંને"><i>બંને</i><par n="સુંદર__adj"/></e>
 
     <!-- SECTION: Adverbs -->
+
 <!-- time -->
 	<e lm="આજે"><i>આજે</i><par n="આજે__adv"/></e>
 	<e lm="કાલે"><i>કાલે</i><par n="આજે__adv"/></e>
@@ -677,6 +726,10 @@
 	<e lm="સવારે"><i>સવારે</i><par n="આજે__adv"/></e>
 	<e lm="બપોરે"><i>બપોરે</i><par n="આજે__adv"/></e>
 	<e lm="સાંજે"><i>સાંજે</i><par n="આજે__adv"/></e>
+
+	<e lm="હંમેશા"><i>હંમેશા</i><par n="આજે__adv"/></e>
+	<e lm="હવે"><i>હવે</i><par n="આજે__adv"/></e>
+	<e lm="અત્યારે"><i>અત્યારે</i><par n="આજે__adv"/></e>
 <!-- place -->
 	<e lm="યહીં"><i>યહીં</i><par n="આજે__adv"/></e>
 	<e lm="ત્યાં"><i>ત્યાં</i><par n="આજે__adv"/></e>
@@ -685,7 +738,9 @@
 	<e lm="બાહર"><i>બાહર</i><par n="આજે__adv"/></e>
 
 <!-- interrogative -->
-	<e lm="ક્યાં"><i>ક્યાં</i><par n="આજે__adv"/></e>
+	<e lm="ક્યાં"><i>ક્યાં</i><par n="int__adv"/></e>
+	<e lm="કેમ"><i>કેમ</i><par n="int__adv"/></e>
+
 	<e lm="જ્યાં"><i>જ્યાં</i><par n="આજે__adv"/></e>
 
 	<e lm="જયારે"><i>જયારે</i><par n="આજે__adv"/></e>
@@ -695,11 +750,19 @@
 	<e lm="નહીં"><i>નહીં</i><par n="આજે__adv"/></e>
 	<e lm="નહી"><i>નહી</i><par n="આજે__adv"/></e>
 	<e lm="ના"><i>ન</i><par n="આજે__adv"/></e>
+
 <!--	<e lm="ન"><i>ન</i><par n="આજે__adv"/></e> FIXME: this messes with the postposition adjoined with nouns -->
 
 
 	<e lm="ચોક્કસ"><i>ચોક્કસ</i><par n="આજે__adv"/></e>
 	<e lm="પણ"><i>પણ</i><par n="આજે__adv"/></e>
+	<e lm="પછી"><i>પછી</i><par n="આજે__adv"/></e>
+
+<!--FIXME-->
+	<e lm="નથી"><i>નથી</i><par n="આજે__adv"/></e>
+	<e lm="ને"><i>ને</i><par n="આજે__adv"/></e>
+
+
 
 	<!-- SECTION : Numerals -->
 	<e lm="એક"><i>એક</i><par n="એક__num"/></e>
