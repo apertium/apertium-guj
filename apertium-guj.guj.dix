@@ -284,9 +284,11 @@
 
 	<e><p><l>તેઓ</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="nom"/></r></p></e>
 
+	<e><p><l>તેમણે</l><r>તે<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dst"/><s n="erg"/></r></p></e>
+
     </pardef>
 
-    <pardef n="p3__prn_dst">  <!-- FIXME: to be completed-->
+    <pardef n="p3__prn_prx">  <!-- FIXME: to be completed-->
 		<e><p><l>આ</l><r>આ<s n="prn"/><s n="dem"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="prx"/><s n="nom"/></r></p></e>
     </pardef>
 
@@ -301,7 +303,7 @@
        <e><p><l>ો</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
        <e><p><l>ા</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
-       <e><p><l>ઓ</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
+       <e><p><l>ાઓ</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><j/></r></p><par n="noun__post"/></e>
 
        <e><p><l>ે</l><r>ો<s n="n"/><s n="m"/><s n="sg"/><s n="loc"/></r></p></e>
        <e><p><l>ે</l><r>ો<s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r></p></e>
@@ -502,47 +504,47 @@
 	</pardef>
 
 	<pardef n="રમ/વું__tv_vblex">
-		<e><p><l>વું</l><r><s n="vblex"/><s n="inf"/></r></p></e>
+		<e><p><l>વું</l><r>વું<s n="vblex"/><s n="inf"/></r></p></e>
 
 	<!--simple present-->
-		<e><p><l>ું</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>ીએ</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>ું</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>ીએ</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
 
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
-		<e><p><l>ો</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>ો</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
 
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 
-		<e><p><l>ું</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>ીએ</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>ું</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>ીએ</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
-		<e><p><l>ો</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>ો</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
 
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
 	<!--simple future-->
-		<e><p><l>ીશ</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
-		<e><p><l>ીશું</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>ીશ</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>ીશું</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
 
-		<e><p><l>શે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
-		<e><p><l>શો</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+		<e><p><l>શે</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>શો</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
 
-		<e><p><l>શે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-		<e><p><l>શે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+		<e><p><l>શે</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+		<e><p><l>શે</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 
-		<e><p><l>ું</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
-		<e><p><l>ીએ</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>ું</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>ીએ</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
-		<e><p><l>ો</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e> <!--FIXME: non-honorific : tu-->
+		<e><p><l>ો</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e> <!--FIXME: honorific : tame -->
 
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-		<e><p><l>ે</l><r><s n="tv"/><s n="vblex"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+		<e><p><l>ે</l><r>વું<s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
-      	<e><p><l>વાનું</l><r><s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e> <!--FIXME: recheck-->
+      	<e><p><l>વાનું</l><r>વું<s n="vblex"/><s n="tv"/><s n="inf"/><s n="nom"/></r></p></e> <!--FIXME: recheck-->
 
 	</pardef>
 
@@ -612,6 +614,7 @@
     <e lm="તમે"><i></i><par n="તમે__prn"/></e>
     <e lm="તમે"><i></i><par n="તમે__prn"/></e>
     <e lm="તે"><i></i><par n="p3__prn_dst"/></e>
+    <e lm="આ"><i></i><par n="p3__prn_prx"/></e>
 
     <e lm="શું"><i></i><par n="prn__itg"/></e>
     <!-- SECTION: Nouns -->
@@ -630,6 +633,7 @@
     <e lm="કચરો"><i>કચર</i><par n="છોકરો__n_m"/></e>
     <e lm="બગીચો"><i>બગીચ</i><par n="છોકરો__n_m"/></e>
     <e lm="કૂતરો"><i>કૂતર</i><par n="છોકરો__n_m"/></e>
+	<e lm="બચ્ચો"><i>બચ્ચ</i><par n="છોકરો__n_m"/></e>
 
 
 <!-- marked, feminine-->
@@ -647,6 +651,7 @@
     <e lm="છોકરું"><i>છોકર</i><par n="છોકરું__n_nt"/></e>
     <e lm="કારખાનું"><i>કારખાન</i><par n="છોકરું__n_nt"/></e>
     <e lm="બારણું"><i>બારણ</i><par n="છોકરું__n_nt"/></e>
+    <e lm="માથું"><i>માથ</i><par n="છોકરું__n_nt"/></e>
 
 <!-- unmarked, masculine -->
     <e lm="વિચાર"><i>વિચાર</i><par n="વિચાર__n_m"/></e>
@@ -656,6 +661,8 @@
     <e lm="અવાજ"><i>અવાજ</i><par n="વિચાર__n_m"/></e>
     <e lm="હાથ"><i>હાથ</i><par n="વિચાર__n_m"/></e>
     <e lm="લોક"><i>લોક</i><par n="વિચાર__n_m"/></e>
+    <e lm="મેજ"><i>મેજ</i><par n="વિચાર__n_m"/></e>
+    <e lm="પ્રશ્ન"><i>પ્રશ્ન</i><par n="વિચાર__n_m"/></e>
 
 	<!-- unmarked, masculine, vowel-ending -->
     <e lm="રાજા"><i>રાજા</i><par n="રાજા/v__n_m"/></e>
@@ -667,6 +674,7 @@
     <e lm="બાબત"><i>બાબત</i><par n="બહેન__n_f"/></e>
     <e lm="નિશાળ"><i>નિશાળ</i><par n="બહેન__n_f"/></e>
     <e lm="આંખ"><i>આંખ</i><par n="બહેન__n_f"/></e>
+    <e lm="પ્રયત્ન"><i>પ્રયત્ન</i><par n="બહેન__n_f"/></e>
 
 	<!-- unmarked, feminine, vowel-ending -->
     <e lm="ભાષા"><i>ભાષા</i><par n="ભાષા/v__n_f"/></e>
@@ -681,9 +689,9 @@
     <e lm="ઝાડ"><i>ઝાડ</i><par n="ઘર__n_nt"/></e>
     <e lm="હવામાન"><i>હવામાન</i><par n="ઘર__n_nt"/></e>
     <e lm="બાળક"><i>બાળક</i><par n="ઘર__n_nt"/></e>
-
-
-
+    <e lm="જાનવર"><i>જાનવર</i><par n="ઘર__n_nt"/></e>
+    <e lm="પક્ષી"><i>પક્ષી</i><par n="ઘર__n_nt"/></e>
+    <e lm="ધ્યાન"><i>ધ્યાન</i><par n="ઘર__n_nt"/></e>
 
 
 
@@ -702,7 +710,8 @@
 	<e lm="મોટો"><i>મોટ</i><par n="સારો__adj"/></e>
 	<e lm="કાળો"><i>કાળ</i><par n="સારો__adj"/></e>
 	<e lm="ઠંડો"><i>ઠંડ</i><par n="સારો__adj"/></e>
-	<e lm="ઠંડો"><i>ઠંડ</i><par n="સારો__adj"/></e>
+	<e lm="બધો"><i>બધ</i><par n="સારો__adj"/></e>
+	<e lm="પૂરો"><i>પૂર</i><par n="સારો__adj"/></e>
 
 <!-- indeclinables -->
 	<e lm="ખરાબ"><i>ખરાબ</i><par n="સુંદર__adj"/></e>
@@ -757,9 +766,13 @@
 	<e lm="ચોક્કસ"><i>ચોક્કસ</i><par n="આજે__adv"/></e>
 	<e lm="પણ"><i>પણ</i><par n="આજે__adv"/></e>
 	<e lm="પછી"><i>પછી</i><par n="આજે__adv"/></e>
+	<e lm="તો"><i>તો</i><par n="આજે__adv"/></e>
+	<e lm="ધીમે-ધીમે"><i>ધીમે-ધીમે</i><par n="આજે__adv"/></e>
+
 
 <!--FIXME-->
 	<e lm="નથી"><i>નથી</i><par n="આજે__adv"/></e>
+	<e lm="ફરીથી"><i>ફરીથી</i><par n="આજે__adv"/></e>
 	<e lm="ને"><i>ને</i><par n="આજે__adv"/></e>
 
 
