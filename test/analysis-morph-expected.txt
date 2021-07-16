@@ -1,0 +1,20 @@
+[QbgF6nrAFOI1#0] ^;/;<sent>$
+[/QbgF6nrAFOI1]
+[ReePJkj3WrCp#0] ^વીજળી/વીજળી<n><f><sg><nom>$
+[/ReePJkj3WrCp]
+[aqcq8w3CMQcq#0] ^યહીં/યહીં<adv>$
+[/aqcq8w3CMQcq]
+[g9UZzF7NceSZ#0] ^નહીં/નહીં<adv>$
+[/g9UZzF7NceSZ]
+[gVsZ5XsZqIkh#0] ^મને/હું<prn><pers><p1><sg><dat>$
+[/gVsZ5XsZqIkh]
+[hDghgLbcmAn3#0] ^તો/તો<adv>$
+[/hDghgLbcmAn3]
+[jc38tTh8SVOm#0] ^।/।<sent>$
+[/jc38tTh8SVOm]
+[poEKQq2qTVXt#0] ^«/«<lquot>$
+[/poEKQq2qTVXt]
+[twyp-tMu8vhg#0] ^૩૭૦/૩૭૦<num>$
+[/twyp-tMu8vhg]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
